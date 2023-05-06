@@ -4,7 +4,7 @@ import Link from "next/link";
 const Index = () => (
   <Layout>
     <h2>Index page</h2>
-    <Link href="/signin">Signin</Link>
+    <p>Will add the frontend page here once we decide on something tangable</p>
   </Layout>
 );
 
