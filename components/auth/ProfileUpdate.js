@@ -133,6 +133,7 @@ const ProfileUpdate = () => {
           className="form-control"
           onChange={handleChange("email")}
           value={email}
+          disabled
         />
       </div>
       <div className="form-group">
