@@ -24,7 +24,7 @@ const LoginGoogle = () => {
         console.log(data.error);
       } else {
         authenticate(data, () => {
-          if (isAuth() && isAuth.role === 1) {
+          if (isAuth() && isAuth().role === 1) {
             Router.push("/admin");
           } else {
             Router.push("/user");
